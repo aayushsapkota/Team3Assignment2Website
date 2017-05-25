@@ -1,0 +1,62 @@
+/* Aayush sapkota 283859*/
+
+#Register{
+    background-color: #880020;
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+#Register h2{
+    margin: 0px;
+}
+
+.Register_content{
+     margin: 0 auto;
+    width: 80%;
+   
+}
+.Register_content p{
+    line-height: 150px;
+    margin: 0px;
+}
+
+form button{
+    margin-top: 20px;
+    background-color: #343434;
+}
+
+.forms_Inputs{
+    margin-bottom: 25px;
+   
+}
+#formVal label{
+    color: white;
+    font-size: 18px;
+}
+.forms_Inputs input{
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    display: inline-block;
+  
+    
+}
+.text_input{
+      width: 200px;
+    height: 20px;
+  border-radius: 3px;
+    padding-left: 5px;
+}
+.input {
+  font-size: 20px;
+  color: black;
+  padding-top: 5px;
+  margin-left: 5px;
+    
+}
+
+@media screen and (min-width:1000px) {
+    .Register_content{
+        width: 60%;
+    }
+}

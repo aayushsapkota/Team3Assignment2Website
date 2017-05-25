@@ -1,0 +1,55 @@
+/* Aayush Sapkota s283859
+    Augustine Thorbjornsen */
+
+
+@import "lib/headingAndNav.css";
+@import "lib/Home.css";
+@import "lib/infocard.css";
+@import "lib/EventAndHistory.css";
+@import "lib/slideshow.css";
+@import "lib/card.css";
+@import "lib/register.css";
+@import "lib/footer.css";
+body {
+  font-family: sans-serif;
+ margin: 0px;
+    color: #333;
+    font-size: 19px;
+      
+}
+body, html{
+   overflow-x: hidden;
+}
+header, #Home #Events, #History, #Register{
+  overflow: hidden;
+}
+
+button{
+    border: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #e70036;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+button:active{
+    background-color: #777;
+}
+
+h2{
+    margin:0px;
+     padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+noscript{
+    color: white;
+    text-align: center;
+  
+}

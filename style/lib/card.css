@@ -1,0 +1,49 @@
+/* Aayush Sapkota
+     s283859 */
+.eventcards_list{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.cards{
+    background-color: #fff;
+    border-radius: 5px;
+    display: block;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: calc(50% - 50px);
+    min-width: 300px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.cards__content{
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.cards a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    width: 100px;
+    text-align: center;
+    background-color: #c8002f;
+
+}
+.cards a:hover{
+    background-color: #555;
+}
+.cards a:active{
+    background-color: deepskyblue;
+}
+
+@media screen and (min-width:400px) {
+    
+}
